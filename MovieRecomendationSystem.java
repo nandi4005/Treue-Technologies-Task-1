@@ -3,15 +3,13 @@ import java.util.Scanner;
 class MovieRecomendationSystem {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
-        System.out.println("=============================================");
-        System.out.println("WELCOME TO MOVIE RECOMENDATION SYSTEM");
-        System.out.println("=============================================");
+        System.out.println("WELCOME TO THE MOVIE RECOMENDATION SYSTEM");
         System.out.println("Select the language");
         System.out.println("1.TELUGU");
         System.out.println("2.HINDI");
         System.out.println("3.TAMIL");
         System.out.println("4.ENGLISH");
-        System.out.println("5.KANADA");
+        System.out.println("5.KANNADA");
         int language = input.nextInt();
         if (language == 1) {
             System.out.println("Your selected language is TELUGU");
@@ -176,7 +174,7 @@ class MovieRecomendationSystem {
             }
         }
         if (language == 5) {
-            System.out.println("Your selected language is KANADA");
+            System.out.println("Your selected language is KANNADA");
             System.out.println("Select the Geners");
             System.out.println("1.COMEDY");
             System.out.println("2.SCIENCE-FICTION");
